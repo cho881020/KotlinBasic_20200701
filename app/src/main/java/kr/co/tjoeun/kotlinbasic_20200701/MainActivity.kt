@@ -38,6 +38,9 @@ class MainActivity : AppCompatActivity() {
 //            대입값이 String이면 => 변수 타입도 자동으로 String으로 결정됨.
             val inputContent = inputContentEdt.text.toString()
 
+//            inputContent를 토스트로 출력
+            Toast.makeText(this, inputContent, Toast.LENGTH_LONG).show()
+
 //            상수 (val) 와 변수(var) 의 차이
 //            val input : String
 //            input = "테스트"
